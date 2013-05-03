@@ -9,7 +9,7 @@
     Datensicherheit I and II" in German and English language. You can use "-d"
     as a command line argument to download the files immediately.
     
-    (c) 2013 Jan Holthuis by 2013
+    (c) 2013 Jan Holthuis
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
