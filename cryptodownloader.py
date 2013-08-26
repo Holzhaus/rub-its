@@ -3,13 +3,13 @@
 
 """
 
-    cryptodownloader.py 0.1
+    cryptodownloader.py 0.2
 
     This tool downloads the video recordings of the lecture "Kryptografie und
     Datensicherheit I and II" in German and English language. You can use "-d"
     as a command line argument to download the files immediately.
     
-    (c) 2013 Jan Holthuis by 2013
+    (c) 2013 Jan Holthuis
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,7 +27,6 @@
 """
 
 import urllib.request, re, sys, os, html.parser
-from itertools import zip_longest
 
 # Load HTML source code
 def getHTML(url):
